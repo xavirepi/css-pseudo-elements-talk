@@ -24,10 +24,12 @@ export const FlexDiv = styled.div`
   display: flex;
   flex-direction: ${(props) => props.flexDirectionColumn && "column"};
   align-items: ${(props) => props.alignItems};
+  align-self: ${(props) => props?.alignSelf};
   justify-content: ${(props) => props?.justifyContent};
   margin: ${(props) => props?.margin};
   padding: ${(props) => props?.padding};
   width: ${(props) => props?.width};
+
   img {
     margin: ${(props) => props?.imgMargin};
   }
