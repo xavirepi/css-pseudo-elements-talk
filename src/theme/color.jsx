@@ -1,0 +1,15 @@
+module.exports = {
+  colorPrimary: "#0400B5",
+  colorSecondary: "#027BFA",
+  white: "#FFFFFF",
+  grey: "#E4E4E6",
+  lightGrey: "#BDBDBD",
+  strongGrey: "#828282",
+  mediumGrey: "#E0E0E0",
+  black: "#000000",
+  fontColor: "#4F4F4F",
+  red: "#FC595F",
+  green: "#03923A",
+  lightPurple: "#0400B533",
+  starsYellow: "#FDC202",
+};
